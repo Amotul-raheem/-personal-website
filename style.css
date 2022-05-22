@@ -25,7 +25,21 @@ html, body {
   background: var(--main-bg-color);
   color: var(--main-text-color);
 }
-
+h1{
+  font-size: 32px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 26px;
+}
+h4{
+  font-size: 24px;
+}
+p{
+  font-size: 20px;
+}
 header{
   padding: 40px;
   text-align: center;
@@ -40,7 +54,7 @@ header li a{
   position: relative;
   text-decoration: none;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   padding: 0 15px;
   color: var(--main-text-color)  
 }
@@ -114,7 +128,7 @@ header li img{
   opacity: 0.7;
 }
 .hello{
-  font-size: 25px
+  font-size: 22px
 }
 .about h1{
   font-size: 50px;
@@ -122,7 +136,6 @@ header li img{
 }
 .career-description{
   font-style: italic;
-  font-size: 22px;
   margin-top: 10px;
 }
 .about i{
@@ -133,9 +146,8 @@ header li img{
 .about-description{
   margin:  0 500px;
   line-height: 1.5;
-  font-size: 22px;
   word-spacing:2px;
-  padding: 30px 300px;
+  padding: 30px 80px;
 }
 
 .education-container{
@@ -155,26 +167,22 @@ header li img{
   line-height: 1.5;
 }
 .education-container h2{
-  font-size: 35px;
-  padding: 30px;
+  padding: 30px;font-size: 30px;
 }
 .education h3{
   display: inline-block;
-  font-size: 26px
 }
 .education h4{
   display: inline;
-  font-size: 24px;
 }
 .education p{
   display: inline;
-  font-size: 22px
+  font-size: 20px
 }
  .date{
    position: absolute;
    right: 0;
    font-style: italic;
-   font-size: 20px;
 }
 
 
@@ -192,7 +200,6 @@ header li img{
   
 }
 .portfolio-container h2{
-  font-size: 35px;
   padding: 30px;
 }
 .portfolio{
@@ -205,11 +212,9 @@ header li img{
   margin-right: 30px;
 }
 .portfolio-left h3{
-  font-size: 26px;
   line-height: 2;
 }
 .portfolio-left p{
-  font-size: 22px;
   line-height: 1.3;
   word-spacing: 2px;
 }
@@ -221,7 +226,7 @@ header li img{
   border: 0 solid var(--color-accent);
   background: var(--color-secondary);
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px;
   margin: 25px 0;
 }
@@ -257,17 +262,14 @@ header li img{
   margin: 50px 0 150px 0;
 }
 .hobbies-container h2{
-  padding: 30px 125px;
-  font-size: 35px;
+  padding: 30px;
 }
 .hobby{
   flex: 1;
   margin: 10px 5px;
-  text-align: center;
-  padding: 0 100px;
+  width:100%;
 }
 .hobby p{
-  font-size: 22px;
   line-height: 1.5;
   padding: 0 10px 0 0;
 }
@@ -297,20 +299,19 @@ header li img{
   text-align: center;
   width: 40%;
   height: auto;
-  margin: 100px 0;
+  margin: 50px 0;
   border-radius: 30px;
   padding: 40px 70px;
   background: var(--color-primary);
 }
 .form-container > h1{
-  font-size: 60px;
-  margin: 30px 0;
+  margin: 10px 0;
 }
 .form-container input, .form-container select{
   width: 100%;
-  height: 70px;
+  height: 50px;
   outline: none;
-  font-size: 22px;
+  font-size: 16px;
   border-radius: 10px;
   background: #1a1c23;
   color: #FFFFFF;
@@ -365,24 +366,22 @@ input.right{
   width: 70%;
   height: auto;
   background: var(--color-primary);
-  margin-top: 30px;
-  padding: 100px;
+  margin-top: 10px;
+  padding: 50px;
   border-radius: 50px;
   box-shadow: 4px 4px 10px 0px var(--color-primary);
 }
 .contact> h1{
-  font-size: 60px;
-  margin: 80px 0 40px 0 ;;
+  margin: 50px 0 30px 0 ;;
 }
 .contact-left{
   flex: 3;
-  padding: 30px;
 }
 .contact-left input, .contact-left select{
   width: 100%;
-  height: 70px;
+  height: 50px;
   outline: none;
-  font-size: 22px;
+  font-size: 18px;
   border-radius: 10px;
   background: #1a1c23;
   color: var(--main-text-color);
@@ -399,7 +398,7 @@ input.right{
   border: 0;
   border-radius: 10px;
   outline: none;
-  font-size: 22px;
+  font-size: 18px;
   margin: 10px;
   padding: 10px;
   color: var(--main-text-color);
@@ -419,33 +418,28 @@ input.right{
   padding: 30px;
 }
 .contact-right h2{
-  font-size: 40px;
   color: var(--color-accent-muted);
   padding: 10px 0;
 }
-.contact-right{
-  font-size: 22px;
-  padding-right: 50px;
-}
+
 .contact-right i{
   color: var(--color-accent);
   display: inline;
 
 }
 .contact-info{
-  margin: 40px 0;
+  margin: 20px 0;
   position: relative
 }
 .variable, .value{
   display: inline;
-  font-size: 26px;
 }
 .value{
   position: absolute;
   right : 0;
 }
 .icon-container  i{
-  margin: 30px;
+  margin: 40px  40px 0 0;
   color: var(--color-accent-muted);
   cursor: pointer;
 }
@@ -462,36 +456,36 @@ input.right{
   flex-direction: column;
 }
 .calculator-container{
-  height: 950px;
-  width: 700px;
+  height: 860px;
+  width: 600px;
   background: #1a1c23;
   margin: 100px 0;
-  padding: 50px;
+  padding: 40px;
   border-radius: 50px;
   border: 5px solid var(--color-primary);
   box-shadow: 4px 4px 20px 0px #1a1c23;
 }
 .calculator-container input{
   width: 100%;
-  height: 200px;
+  height: 220px;
   border-radius: 15px;
   background: var(--main-bg-color);
   border: 0;
-  font-size: 45px;
+  font-size: 35px;
   color: var(--main-text-color);
   text-align: right;
 }
 .calculator-row{
   display: flex;
   justify-content: space-between;
-  margin: 15px
+  margin: 20px
 }
 .calculator-row > button{
   flex: 1;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 40%;
-  font-size: 35px;
+  font-size: 30px;
   background: var(--main-bg-color);
   color: var(--main-text-color);
   border: 0;
@@ -516,25 +510,26 @@ footer{
   background: #1a1c23;
   display: flex;
   margin: 200px 0 50px 0 ;
-  padding: 70px 400px;
+  padding: 50px 250px;
   justify-content: space-between;
   text-align: center;
 }
 footer h3{
-  font-size: 24px;
+  font-size: 20px;
   color:  var(--main-text-color);
 }
 footer p, footer li a{
   color: var(--main-text-color);
   text-decoration: none;
-  margin: 20px 0;
+  margin: 10px 0;
   display: block;
+  font-size: 16px
 }
 footer ul{
    list-style-type: none;
 }
 footer i {
-  margin: 30px
+  margin: 10px
 }
 .icon > a {
   color: #fff
